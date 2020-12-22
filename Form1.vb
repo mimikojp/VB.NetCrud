@@ -2,13 +2,13 @@
 
 Public Class sampleform
     Private Sub sampleform_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        ComboBox1.Items.Add("東京都")
-        ComboBox1.Items.Add("茨城県")
-        ComboBox1.Items.Add("栃木県")
-        ComboBox1.Items.Add("群馬県")
-        ComboBox1.Items.Add("埼玉県")
-        ComboBox1.Items.Add("千葉県")
-        ComboBox1.Items.Add("神奈川県")
+        ComboBox1.Items.Add("西多摩郡日の出町")
+        ComboBox1.Items.Add("西多摩郡瑞穂町")
+        ComboBox1.Items.Add("八丈島八丈町")
+        ComboBox1.Items.Add("大島町")
+        ComboBox1.Items.Add("西多摩郡奥多摩町")
+        ComboBox1.Items.Add("利尻富士町")
+        ComboBox1.Items.Add("小清水町")
         ComboBox1.DropDownStyle = ComboBoxStyle.DropDownList
         ComboBox1.SelectedIndex = -1
         BindData()
